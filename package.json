@@ -1,0 +1,31 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "Repositório de testes End-to-end utilizando o Cypress",
+    "main": "index.js",
+    "scripts": {
+      "test:open": "npx cypress open",
+      "test:run": "npx cypress run --spec cypress/e2e/alliolx.cy.js",
+      "clean_screenshots": "rm -rf cypress/screenshots",
+      "clean_videos": "rm -rf cypress/videos",
+      "clean_all": "npm run clean_screenshots && npm run clean_videos"
+    },
+    "keywords": [
+      "cypress",
+      "e2e"
+    ],
+    "author": "Carla Amorim",
+    "license": "MIT",
+    "devDependencies": {
+      "cypress": "^12.7.0",
+      "cypress-mochawesome-reporter": "^3.3.0",
+      "cypress-plugin-api": "^2.10.3",
+      "eslint": "^8.36.0",
+      "eslint-config-prettier": "^8.8.0",
+      "eslint-plugin-cypress": "^2.12.1",
+      "eslint-plugin-prettier": "^4.2.1",
+      "eslint-plugin-simple-import-sort": "^10.0.0",
+      "faker-br": "^0.4.1",
+      "prettier": "^2.8.7"
+    }
+  }
