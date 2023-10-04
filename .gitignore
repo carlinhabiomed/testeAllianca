@@ -1,4 +1,7 @@
 node_modules
-cypress/screenshots
+cypress/screenshots/**/*.png
+node_modules
+cypress/videos/
 cypress/videos
-
+cypress/videos/*.mp4
+cypress/screenshots
