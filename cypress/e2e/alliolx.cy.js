@@ -1,7 +1,5 @@
 
 describe('Teste Alliança - OlX', () => {
-    const itemValido = "Jeep Renegade";
-    const itemInvalido = "****";
 
     beforeEach(() => {
         cy.visit('/')
